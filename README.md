@@ -1,4 +1,6 @@
-![Alt text](http://imgur.com/7t8gACj "Faça seu video")
+
+![Alt text](http://i.imgur.com/7t8gACj.png "Faça seu video")
+
 
 Faça seu video
 =========
