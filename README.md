@@ -45,7 +45,7 @@ JW Player -  https://br.wordpress.org/plugins/jw-player-7-for-wp/
 
 
 
-VERSÃO 1
+VERSÃO 0.8
 =========
 
 
