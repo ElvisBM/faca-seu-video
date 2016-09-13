@@ -1,0 +1,157 @@
+.box{float:left;}
+.content_faca{width: 1105px;height: 590px;background: #fff;opacity: 0.8;position: absolute;left: 10%;top: 10px;z-index:100;}
+.itens{padding: 5px;}
+.itens .videofull{}
+.itens h3{color: #000033;font-family: 'flamalight';font-size: 14px;text-transform:uppercase;}
+.itens .lista{  height: 368px;}
+.itens .lista ul{list-style:none;margin: 0px;}
+.itens .lista ul li{float:left;margin-right: 3px;margin-top: -4px;}
+.itens .lista ul a{width:120px!important;display: block;float: left;}
+.itens .lista ul a img{width:100%;}
+.timelines{width: 940px;float: left;}
+.timelines .texto p{color: #000;font-family: 'flamalight';font-size: 14px;line-height: 15px;margin-left: 10px;margin-bottom: -10px;margin-top: 25px;}
+.timelines .videosecenas{ width: auto;display: inline; }
+.timelines .audio{  width: auto;display: inline-block;margin-top: -20px;}
+.timelines ul{  margin-left: 10px;width: auto;display: inline-block;  margin-bottom: 17px;}
+.timelines ul li{display: inline;float: left;width: 50px;height: 40px;list-style: none;}
+.timelines ul li:first-child{border-left: 1px solid #000!important;border-top: 1px solid #000!important;border-bottom: 1px solid #000!important;border-right: 1px solid #000!important;}
+.timelines ul li.desativado{border-top: 1px solid #C5C5C5;border-bottom: 1px solid #C5C5C5;border-right: 1px solid #C5C5C5;display:none;}
+.timelines ul li.ativado{border-top: 1px solid #000;border-bottom: 1px solid #000;border-right: 1px solid #000;display: block;}
+.timelines ul li.frasePre{background: url("../images/icon_sound.jpg") no-repeat;background-position: center;background-color: #A19C99;}
+.listafilme{display:none;width: 630px;margin-left: 15px;}
+.timelines .texto{margin-bottom: 20px;}
+/* Layout faça seu Video novo*/
+.ancorasfsv{  height: 60px;width: 570px;margin-left: 460px;}
+.linhatempo{  float: left;max-width: 900px;}
+.ancorasfsv a{text-transform: uppercase;font-family: 'flamabook';padding: 10px 0px;}
+.ancorasfsv a.active{font-weight:bold;}
+.legenda{color: #000;font-family: 'flamalight';font-size: 14px;line-height: 15px;margin-top: 10px;}
+
+
+
+.content_exemplo .video2{  width: 190px;
+  float: left;}
+.content_exemplo .video3{  width: 190px;
+  float: right;}
+ .content_exemplo .descricao{  color: #000;
+  font-size: 12px;
+  font-family: 'flamabook';
+  font-weight: bold;
+  margin-bottom: 11px;}
+
+
+
+/* Drag Drop */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+
+.timelines ul li.over {
+  border: 2px dashed #000;
+}
+
+/* User */
+.userfacaSeuVideo{position: absolute;top: -30px;right: -17px;z-index: 999;}
+.btncriaruser{background-color: #808080;color: #000;font-family: 'flamabook';display: inline-block;margin-right: 10px;padding: 2px 6px;font-size: 13px;font-weight: bold;}
+.btncriaruser:hover{color:#fff; text-decoration:underline;}
+.btncriaruser:visited{color:#fff;}
+.formuserfaca{display: inline-block;}
+.formuserfaca input{background: none;border-radius: 0px!important;font-size: 13px!important;padding: 1px 3px!important;color: #fff!important;}
+.nomeuser{margin-right: 60px;font-size: 20px;}
+.avataruser{width: 40px;margin-top: -35px;right: 10px;position: absolute;}
+.btnAudio{   background: url("../images/escolha_audio.png") no-repeat;
+  width: 345px;
+  height: 51px;
+  display: block;
+  margin-top: -100px;
+  margin-left: 6px;
+  position: absolute;
+  z-index: 9999;
+}
+.post-235{background: none!important;}
+.btn{display: inline-block;margin-top: 80px;}
+.btnsalvarTime{background-color: #000;border: none;color: #ffffff!important;display: inline-block;font-size: 1em;padding: 0px 3px;text-decoration: none;cursor: pointer;font-family: 'flamalight';text-transform: uppercase;}
+.btnassistirtime{background-color: #000;border: none;color: #ffffff!important;display: inline-block;font-size: 1em;padding: 0px 3px;text-decoration: none;cursor: pointer;font-family: 'flamalight';text-transform: uppercase;}
+.btnfechar{position: absolute;display: block;top: 15px;right: -3px;z-index: 999;color: #000;font-weight: bold;font-size: 16px;line-height: 16px;padding: 0px 5px 3px;}
+.btnAssistir{  margin-top: 18px;margin-left: 5px;float: left;}
+
+.btnsalvar{   margin-top: 47px;display: inline-block;margin-left: -71px;}
+.content_texto{width: 492px!important;color: #000;  font-size: 14px;}
+.content_texto ul{  margin: 0px;}
+.content_texto ul li{list-style: none;  font-family: flamabook;}
+.content_texto span{  padding: 1px 7px;
+  display: inline-block;
+  background: #003363;
+  color: #fff;
+  font-size: 12px;
+  font-family: flamabook;}
+
+.forminfos{display:none;background: url("../images/bgbranco.png");width:385px;height:240px;padding: 10px;position: absolute;z-index: 999;}
+.textoFormInfos{color: #003366!important;font-size: 14px!important;}
+.forminfos input{border: 1px solid #32659a!important;background: none;width: 360px;color: #fff!important;margin: 5px 0px;border-radius: 0px!important;font-size: 14px;}
+.forminfos input[type="submit"]{color: #003367!important;background: none!important;border: none!important;text-decoration: underline;margin: 0px!important;width: 90px;}
+
+.previewfsvcontent{position: absolute;z-index: 999;width: 100%;height: 96.5%;left: 0;}
+.videosPreview{position: absolute;z-index: 990;left: 190px;}
+#btnFecharPreview{background: #fff;color: #003366!important;text-transform: uppercase;text-decoration: none;border: none;font-weight: bold;font-family: 'flamabold';padding: 0px 4px;top: 0px;left: 884px;position: absolute;z-index: 999;}
+.btnApagar{  margin-top: 9px;margin-left: 4px;display: inline-block;  float: left;}
+
+
+/* ScrollBAR */
+.content_faca .mCSB_scrollTools .mCSB_draggerContainer{display:block;}
+.content_faca .mCSB_inside > .mCSB_container{margin-right: 0px;}
+.content_faca .mCSB_scrollTools a + .mCSB_draggerContainer{margin: 2px 0;}
+.content_faca  .mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail{background-color: rgba(1, 51, 104, 0.40);}
+.content_faca .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #000;}
+.content_faca .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background-color: #000;}
+.content_faca  .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background-color: #013368!important;}
+
+.divPreview{width: 450px;height: 315px;}
+
+/* Multiple Select */
+.bootstrap-select{}
+.bootstrap-select ul{list-style:none;}
+
+.forminfos #compartilhar input[type="submit"]{  margin-left: -17px!important;}
+{  color: #003367!important;
+  background: none!important;
+  border: none!important;
+  text-decoration: underline;
+  margin: 0px!important;
+  width: 90px;}
+
+  .fecharcompartilha{  color: #003367!important;
+  background: none!important;
+  border: none!important;
+  text-decoration: underline;
+  margin: 0px!important;width: 90px;text-transform: uppercase;font-family: 'flamalight';float: right;font-size: 16px;}
+
+
+.contentvideo .colunm{background: url("../images/bgbranco.png");float: left;width: 400px;padding: 5px;margin-right: 5px;}
+.content_deslogado{  position: absolute;z-index: 999;left: 10%;top: 0%;}
+.fechardeslogado{ right: 5px!important;top: 15px!important;}
+
+
+/*Modal Video Nao Logado*/
+.modalvideos{width: 100%;height: 100%;position: absolute;z-index: 999;top: 0;left: 0;display: none;}
+.con_video2{display: none;  position: absolute;
+  z-index: 999;  left: 150px;}
+.con_video3{display: none;  position: absolute;
+  z-index: 999;  left: 150px;}
+.fecharmodalvideo{  background: #999;
+  color: #fff!important;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  font-family: 'flamabold';
+  padding: 0px 4px;
+  float: right;
+  font-size: 12px;top: 1px!important;}
